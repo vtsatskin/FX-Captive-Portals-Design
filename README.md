@@ -20,6 +20,12 @@ This and many other algorithms are imperfect solutions which can provide false
 negatives and false positives. Therefore a design should be created to handle
 these erroneous cases.
 
+### More information
+
+- [Chrome OS Network Portal Detection][chromeDetection]
+
+[chromeDetection]:http://www.chromium.org/chromium-os/chromiumos-design-docs/network-portal-detection
+
 
 ## Tampering of requests
 
