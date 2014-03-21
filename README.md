@@ -87,6 +87,21 @@ internet.
 Some captive portals allow partial access to the internet while the user is not
 logged in. For example, checking airline flights at an airport.
 
+### A "restore session" window open on launch
+
+When a user launches Firefox after it crashed and a session restore window is
+displayed and is currently connected to a captive portal and has not logged in.
+
+### User has automatic restore on launch
+
+When a user launches Firefox and their tabs are being restored from the last
+session and is currently connected to a captive portal and has not logged in.
+
+### The user is cycling wifi networks to find a suitable network
+
+Users will cycle open wifi networks in order to find a suitable network, in the
+process they may encounter networks with captive portals. A mix of open tabs
+and windows may be open.
 
 ## Feature ideas
 
