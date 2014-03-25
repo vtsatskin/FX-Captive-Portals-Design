@@ -2,8 +2,8 @@
 
 ## A captive portal detected after connecting to a network.
 
-Open the detected captive portal in a new tab in the active window. This can be
-seen in Figure 1.
+Open the detected captive portal automatically in a new tab in the active window.
+This can be seen in Figure 1.
 
 ![](wifi.login.auto.tab.png)
 
@@ -57,10 +57,17 @@ starting, then also display a captive portal login tab.
 ## Captive portal tampering with SSL connections
 
 If a captive portal is detected and a page with an SSL connection is being
-loaded and appears to be tampered with, display a different warning page before
-the SSL connection error as shown in Figure 4.
+loaded and appears to be tampered with, display an alternative warning page
+as shown Figure 4. This error page would behave as the existing about:certerror
+page.
 
-**Figure 4:** TODO: MITM informative page.
+Pressing "open login page" would open the captive portal in a new tab. Similar
+to the status bar button, if the captive portal is already open, switch to the
+tab.
+
+![](network.portal.interference.png)
+
+**Figure 4:** Network portal interference.
 
 ## Cycling WiFi Networks
 
