@@ -46,6 +46,13 @@ Networks has [a solution][cnaBypass] to entirely bypass this detection.
 
 [cnaBypass]:external/Amigopod-CNA-bypass-AppNote.pdf
 
+#### CNA Disable
+
+It's also possible to disable CNA with the following command:
+`sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false`
+
+[Source](http://ilostmynotes.blogspot.be/2012/09/disable-captive-network-support-in-os-x.html)
+
 ### More information
 
 - [Chrome OS Network Portal Detection][chromeDetection]
