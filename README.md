@@ -9,6 +9,10 @@ ends.
 
 There is no set standard, so detection is difficult.
 
+## Design spec
+
+See [design/spec.md](design/spec.md).
+
 
 ## Detection
 
@@ -34,6 +38,7 @@ There is also a configuration file located in
 `/Library/Preferences/SystemConfiguration/CaptiveNetworkSupport/Settings.plist`
 
 [Source](http://apple.stackexchange.com/q/45418)
+
 
 ### More information
 
