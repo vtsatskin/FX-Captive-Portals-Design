@@ -34,3 +34,12 @@ page. This status bar should be tab specific unlike the one shown in Figure 2.
 ![](wifi.login.new.tab.png)
 
 **Figure 3:** Captive portal login replaces new tab.
+
+## Restoring sessions
+
+If Firefox is starting and the user will be prompted to restore their tabs
+(e.g. after a crash), show the restore tabs button along with the captive portal
+login to the right of it.
+
+If Firefox is automatically going to open all of the previously open tabs upon
+starting, then also display a captive portal login tab.
