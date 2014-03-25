@@ -102,6 +102,7 @@ Users will cycle open wifi networks in order to find a suitable network, in the
 process they may encounter networks with captive portals. A mix of open tabs
 and windows may be open.
 
+### Captive portal charges per data usage
 
 ## Feature ideas
 
