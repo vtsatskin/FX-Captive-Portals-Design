@@ -24,7 +24,7 @@ This and many other algorithms are imperfect solutions which can provide false
 negatives and false positives. Therefore a design should be created to handle
 these erroneous cases.
 
-See [detection.md](detecton.md) a more in-depth analysis.
+See [detection.md](detection.md) a more in-depth analysis.
 
 ## Tampering of requests
 
