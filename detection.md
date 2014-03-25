@@ -46,6 +46,13 @@ It's also possible to disable CNA with the following command:
 
 ## Chrome OS
 
-- [Chrome OS Network Portal Detection][chromeDetection]
+See [Chrome OS Network Portal Detection][chromeDetection].
 
 [chromeDetection]:http://www.chromium.org/chromium-os/chromiumos-design-docs/network-portal-detection
+
+## Android
+
+Android follows the same technique Apple and MS uses, which can be found in their
+[source code][androidSource].
+
+[androidSource]:http://grepcode.com/file/repository.grepcode.com/java/ext/com.google.android/android/4.0.1_r1/android/net/wifi/WifiWatchdogStateMachine.java#WifiWatchdogStateMachine.isWalledGardenConnection%28%29
