@@ -39,6 +39,12 @@ There is also a configuration file located in
 
 [Source](http://apple.stackexchange.com/q/45418)
 
+#### CNA Bypass
+
+Some routers will attempt to bypass Apple's Captive Network Assistant. Aruba
+Networks has [a solution][cnaBypass] to entirely bypass this detection.
+
+[cnaBypass]:external/Amigopod-CNA-bypass-AppNote.pdf
 
 ### More information
 
@@ -122,6 +128,7 @@ session and is currently connected to a captive portal and has not logged in.
 Users will cycle open wifi networks in order to find a suitable network, in the
 process they may encounter networks with captive portals. A mix of open tabs
 and windows may be open.
+
 
 ## Feature ideas
 
