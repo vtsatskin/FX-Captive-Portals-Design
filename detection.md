@@ -7,6 +7,7 @@ query a known web page to determine if a captive portal exists. A prompt from
 the status bar will be displayed in the system menu bar as seen in Figure 1
 
 ![](external/windows.login.prompt.png)
+**Figure 1**: Windows 7 login prompt.
 
 See *[Windows 7 Network Awareness][winDetection]* for more information.
 
@@ -23,7 +24,11 @@ Captive portal detection was first introduced in Mac OS X 10.7.
 -[@mathias](https://twitter.com/mathias/status/144654218983243776)
 
 The system will open `/System/Library/CoreServices/Captive Network Assistant.app`
-when a captive portal is detected.
+when a captive portal is detected. This opens a chrome-less web view shown in
+Figure 2.
+
+![](external/osx.login.prompt.png)
+**Figure 2**: Mac OS X login prompt.
 
 There is also a configuration file located in
 `/Library/Preferences/SystemConfiguration/CaptiveNetworkSupport/Settings.plist`
