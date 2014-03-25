@@ -9,6 +9,15 @@ seen in Figure 1.
 
 **Figure 1:** Captive portal login automatically opened.
 
+### Security Issues
+
+A malicious attacker may attempt to automatically open a malicious tab and run
+arbitrary code/steal cookies on a network such as this. See
+*[OS X Lion Captive Portal Hijacking Attack][cnaHijack]* for more information.
+
+[cnaHijack]:http://www.infosecisland.com/blogview/17138-OS-X-Lion-Captive-Portal-Hijacking-Attack.html
+
+
 ## A captive portal is detected but not logged in
 
 Display status bar indicator indicating the network requires a login as shown in
