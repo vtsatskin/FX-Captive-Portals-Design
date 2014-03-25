@@ -20,6 +20,21 @@ This and many other algorithms are imperfect solutions which can provide false
 negatives and false positives. Therefore a design should be created to handle
 these erroneous cases.
 
+### Mac OS X
+
+> OS X and iOS make a request to http://www.apple.com/library/test/success.html
+> every time you connect to a WiFi network.
+
+-[@mathias](https://twitter.com/mathias/status/144654218983243776)
+
+The system will open `/System/Library/CoreServices/Captive Network Assistant.app`
+when a captive portal is detected.
+
+There is also a configuration file located in
+`/Library/Preferences/SystemConfiguration/CaptiveNetworkSupport/Settings.plist`
+
+[Source](http://apple.stackexchange.com/q/45418)
+
 ### More information
 
 - [Chrome OS Network Portal Detection][chromeDetection]
