@@ -43,3 +43,18 @@ login to the right of it.
 
 If Firefox is automatically going to open all of the previously open tabs upon
 starting, then also display a captive portal login tab.
+
+## Captive portal tampering with SSL connections
+
+If a captive portal is detected and a page with an SSL connection is being
+loaded and appears to be tampered with, display a different warning page before
+the SSL connection error as shown in Figure 4.
+
+**Figure 4:** TODO: MITM informative page.
+
+## Cycling WiFi Networks
+
+Sometimes a user may cycle wifi networks in order to find a suitable internet
+connection. In the process multiple captive portals may be detected. In order
+to prevent many tabs being open, if an existing captive portal is already open
+overwrite it when a new captive portal is detected.
