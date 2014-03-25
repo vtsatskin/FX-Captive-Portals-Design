@@ -12,7 +12,8 @@ seen in Figure 1.
 ## A captive portal is detected but not logged in
 
 Display status bar indicator indicating the network requires a login as shown in
-Figure 2.
+Figure 2. The status bar will be dismissed once the captive portal has been
+logged into.
 
 Pressing "Open Login Page" will open a new tab and display the login page.
 If the captive portal is already open, switch to the tab.
