@@ -1,5 +1,21 @@
 # Captive Portal Design Spec
 
+## Captive portal tab
+
+A tab is considered a captive portal tab if one of the following situations is
+true:
+- A captive portal is automatically opened
+- A new tab page is replaced by a captive portal
+- A captive portal is opened manually (i.e. button click in status bar or SSL
+  error page).
+
+A captive portal tab ceases to be a captive portal tab if the user interacts
+with the tab in a way which causes the tab to navigate to a page other than the
+captive portal. For example:
+- Typing in a page in the URL bar
+- Clicking a link in the captive portal
+
+
 ## A captive portal detected after connecting to a network.
 
 Open the detected captive portal automatically in a new tab in the active window.
