@@ -91,3 +91,32 @@ Sometimes a user may cycle wifi networks in order to find a suitable internet
 connection. In the process multiple captive portals may be detected. In order
 to prevent many tabs being open, if an existing captive portal is already open
 overwrite it when a new captive portal is detected.
+
+
+## Interaction with system captive portal detection
+
+A through writeup on how different operating systems detect captive portals can
+be found in [detection.md](../detection.md).
+
+Firefox captive portal detection should assume the user may authenticate with
+a captive portal outside of Firefox (e.g other browser, or system interaction).
+It should attempt to update the captive portal state as best as it can in these
+scenarios and hide any captive portal UI elements once the user is not behind
+a captive portal anymore.
+
+### Windows
+
+Windows only shows a system tray popup, so nothing in particular needs to be
+addressed in this design. The popup will show and Firefox will behave as defined
+in this spec.
+
+### Mac OS X
+
+Starting in Mac OS X 10.7, a window will appear when a captive portal has been
+detected by the OS.
+
+This may cause duplicated captive portals on the screen. If it's possible,
+Firefox should watch to see if Captive Network Assistant opens a captive portal.
+If it does, there is no need to automatically open it in Firefox. However, if
+the system does not properly detect a captive portal, Firefox should behave as
+defined in this spec.
