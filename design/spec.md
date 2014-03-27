@@ -54,12 +54,19 @@ captive portal instead of the usual new tab behaviour. This is shown in
 Figure 3.
 
 If the user wishes to open the new tab page, they can do so with the button in
-the status bar shown. Pressing "open new tab" should open the usual new tab
-page. This status bar should be tab specific unlike the one shown in Figure 2.
+the status bar shown. Pressing "show new tab" should open the usual new tab
+page as shown in Figure 4. This status bar should be tab specific unlike the one
+shown in Figure 2.
+
+Pressing "show login page" in Figure 4 should switch back to the captive portal.
 
 ![](wifi.login.new.tab.png)
 
 **Figure 3:** Captive portal login replaces new tab.
+
+![](wifi.login.new.tab.shown.png)
+
+**Figure 4:** Normal new tab page shown
 
 ## Restoring sessions
 
@@ -74,7 +81,7 @@ starting, then also display a captive portal login tab.
 
 If a captive portal is detected and a page with an SSL connection is being
 loaded and appears to be tampered with, display an alternative warning page
-as shown Figure 4. This error page would behave as the existing about:certerror
+as shown Figure 5. This error page would behave as the existing about:certerror
 page.
 
 Pressing "open login page" would open the captive portal in a new tab. Similar
@@ -83,7 +90,7 @@ tab.
 
 ![](network.portal.interference.png)
 
-**Figure 4:** Network portal interference.
+**Figure 5:** Network portal interference.
 
 ## Cycling WiFi Networks
 
