@@ -1,5 +1,8 @@
 # Captive Portal Design Spec
 
+Background information and use scenarios can be found in
+[README.md](../README.md).
+
 ## Captive portal tab
 
 A tab is considered a captive portal tab if one of the following situations is
