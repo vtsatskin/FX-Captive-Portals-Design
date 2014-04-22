@@ -3,6 +3,17 @@
 Background information and use scenarios can be found in
 [README.md](../README.md).
 
+## Info bar Spoofability
+
+From [infobar.md](infobar.md):
+> One of the concerns expressed was that the info bar presented in the captive
+portal spec could be easily spoofable because it is contained entirely in an
+area that is in the content frame. A malicious attacker could trick the user
+into thinking Firefox is communicating with them rather than the website itself.
+
+A potential solution to this problem can be found in [infobar.md](infobar.md).
+The spec currently **does not** account for this redesigned info bar.
+
 ## Captive portal tab
 
 A tab is considered a captive portal tab if one of the following situations is
